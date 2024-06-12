@@ -5,9 +5,9 @@ Este repositório contém o projeto desenvolvido pelo GRUPO 06 para o Projeto In
 
 
 ## Equipe 👥
-* **- [Dimerson Vicente Ferreira](https://www.linkedin.com/in/dimerson-ferreira/): Responsável pelo banco de dados (MongoDB) e design do sistema.**
-* **- [Eduardo Vilas Boas Freitas](https://www.linkedin.com/in/eduardo-vilas-boas-062942204/): Desenvolvedor do frontend e responsável pela documentação.**
-* **- [Rafael Verissimo da Silva](https://www.linkedin.com/in/rafael-ver%C3%ADssimo-da-silva-94a674227/): Desenvolvedor do backend e Product Owner (PO).**
+* **- [Dimerson Vicente Ferreira](https://www.linkedin.com/in/dimerson-ferreira/): Responsável pelo design do sistema e criação do banco de dados.**
+* **- [Eduardo Vilas Boas Freitas](https://www.linkedin.com/in/eduardo-vilas-boas-062942204/): Desenvolvedor do frontend e desing do sistema.**
+* **- [Rafael Verissimo da Silva](https://www.linkedin.com/in/rafael-ver%C3%ADssimo-da-silva-94a674227/): Desenvolvedor do backend, Product Owner (PO) e documentação do projeto.**
 
 
 ## Tecnologias Utilizadas 🚀
