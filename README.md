@@ -1,84 +1,113 @@
-# DSM-G06-PI3-2024-1
-Repositório do GRUPO 06 do Projeto Interdisciplinar do 3º semestre DSM 2024/1.
-Alunos: Dimerson Vicente Ferreira, Eduardo Vilas Boas Freitas, Rafael Verissimo da Silva
+<H1 align ="center" > DSM-G06-PI3-2024-1 - Robotics Atendimentos 🤖  </h1>
 
-## ✒️ Alunos: 
+## Descrição do Projeto 📝
+Este repositório contém o projeto desenvolvido pelo GRUPO 06 para o Projeto Interdisciplinar do 3º semestre do curso de Desenvolvimento de Software Multiplataforma (DSM) em 2024/1. O projeto "Robotics Atendimentos" visa solucionar o problema da auxência de registros de atendimentos de uma equipe de suporte técnico, permitindo a otimização dos processos e a melhoria da gestão.
 
-* **[Dimerson Vicente Ferreira](https://www.linkedin.com/in/dimerson-ferreira/) - (Banco e Design)** 
-* **[Eduardo Vilas Boas Freitas](https://www.linkedin.com/in/?????/) - (Front e Documentação)**
-* **[Rafael Verissimo da Silva](https://www.linkedin.com/in/rafael-ver%C3%ADssimo-da-silva-94a674227/) - (Back e PO)**
 
-# Título do projeto:  Robotics Atendimentos
-Uma equipe de TI de uma determinada empresa, enfrenta um desafio significativo: um grande número de atendimentos e chamados não são registrados eletronicamente, através dos sistemas convencionais utilizados. Essa falta de registro impede a mensuração precisa da carga de trabalho, a identificação de gargalos e a melhora dos processos dos atendimentos internos.
+## Equipe 👥
+* **- [Dimerson Vicente Ferreira](https://www.linkedin.com/in/dimerson-ferreira/): Responsável pelo design do sistema e criação do banco de dados.**
+* **- [Eduardo Vilas Boas Freitas](https://www.linkedin.com/in/eduardo-vilas-boas-062942204/): Desenvolvedor do frontend e desing do sistema.**
+* **- [Rafael Verissimo da Silva](https://www.linkedin.com/in/rafael-ver%C3%ADssimo-da-silva-94a674227/): Desenvolvedor do backend, Product Owner (PO) e documentação do projeto.**
 
-## 🚀 Começando
-Essas instruções permitirão que você obtenha acesso aos detalhes do projeto desenvolvido em React, segue links para realização de atualizações e manutenções futuras.
 
-Acesse arquivo: 
-* [RUP e canvas](https://github.com/DimersonBR/emarketconnect/blob/emarketconnect/img/RUP_PI_1_canva.pdf) - Dados detalhados
-* [FIGMA](https://www.figma.com/file/kKencEcNQyBtLGd9bP0FIi/Projeto-DSM?type=design&node-id=0%3A1&mode=design&t=xUwPZbxtpV13ePSE-1) - Neste link você terá acesso a nossa prototipação
+## Tecnologias Utilizadas 🚀
+* **Frontend: Next.js (React Framework) ⚛️**
+* **Backend: Node.js com Express.js 🖥️**
+* **Banco de Dados: MongoDB (NoSQL Database) 🍃**
 
-### 📋 Pré-requisitos
 
-Conhecimento em HTML e CSS, padrões de boas praticas seguir no site: https://www.w3schools.com/css/default.asp
-Criação de logo, utilizando as ferramentas: Inkscape e Krita
+## Funcionalidades Principais ✨
+* **Registro de Atendimentos e Chamados:** Permite o registro eletrônico de todos os atendimentos e chamados realizados pela equipe de TI.
+* **Categorização de Problemas:** Classifica os tickets por categorias predefinidas (Hardware, Software, Rede, etc.).
+* **Acompanhamento do Status dos Tickets:** Monitora o progresso dos tickets, desde a abertura até o fechamento.
 
-* [logomarca](/img/logo_RobAt.png) - Logomarca do Projeto
-* [Paleta](/docs/Paleta_de_cores_ROBOTIC.png) - Paleta de cores do projeto
-/* #1ebf9e - Azul Fundo Claro
-/* #7c1b12 - Azul escuro Carrinho
-/* #e15d37 - Letras do logo
-/* #fee914 - Amarelo do Globo
-/* #f0f0f0 - Branco
 
-### 🔧 Instalação
+## Documentação da API 📖
+A documentação completa da API REST utilizada neste projeto, incluindo exemplos de requisições e respostas, pode ser encontrada em:
+[DOCUMENTAÇÃO-API-GP-06](https://documenter.getpostman.com/view/34861590/2sA3XMhN9m)
 
-Seguir os passos abaixo para montar um ambiente produção, pronto para edição do projeto, seguir os procedimentos  passo-a-passo: 
 
-Realize a instalaçao do GIT:
-Basta acessar a página de instalação e seguir as orientações de instalação na página:
+## Como Executar o Projeto local ▶️
+
+**Clonar o Repositório:**
 ```
-https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
-```
-Após a instalação do GIT, acesse o caminho abaixo para ter acesso ao projeto:
+Bash
+
+git clone https://github.com/FatecFranca/DSM-G06-PI3-2024-1.git
 ```
 
-
-## ⚙️ Rodar uma única vez na máquina para configurar
-
-Rodar uma única vez na máquina para configurar
+**Instalar as Dependências (Frontend e Backend):**
 ```
-  git config --global user.email "you@example.com" (coloca o e-mail do seu usuário-git)
-  git config --global user.name "Your Name" (coloca o nome do seus usuário-git)
-
+Bash
+cd client
+npm install
+cd ../server
+npm install
 ```
 
-Abaixo Rodar todas as vezes que precisar atualizar o projeto:
-=> Adicionar os arquivos alterados
-```
-git add .
-```
-=> Montar o pacote de atualização
-```
-git commit -m "coloque nome Identificaque a alteração"
-```
-=> Subir a Atualização
-```
-git push
-```
-Pronto após executar seus arquivos já estarão publicados em seu GIT.
+## Configurar o MongoDB:
 
-## 🛠️ Construído com
+* Certifique-se de ter o MongoDB instalado e em execução.
+* Crie um banco de dados chamado robotics-atendimentos.
+* Crie um arquivo **.env** na raiz do diretório do backend e adicione a seguinte linha:
 
-Ferramentas utilizadas neste projeto 
+```
+DATABASE_URL=mongodb://localhost:27017/robotics-atendimentos
+//(Substitua localhost e 27017 pelos valores corretos se o seu MongoDB estiver em outro host ou porta)
+```
 
-* [GIT](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git) - sistema de controle de versões
-* [GITHUB](https://github.com/) plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git=> Exemplo: https://github.com/DimersonBR/emarketconnect
-* [NOTION](https://vercel.com/) - Acesso a conta na Notion (Redirecionamnento para dominio publico de forma gratuita) => Exemplo: https://emarketconnect.vercel.app/
-* [VSCODE](https://code.visualstudio.com/download) - Acesso IDE ( Sugiro a instalação do VSCODE - Microsoft), porque possui uma integração nativa com o sistema de controle de versão Git, facilitando o controle de versão e atualização de seu projeto.
-* [FIGMA](https://www.figma.com/) - Acesse o link para verificar a prototipação
+## Iniciar o servidor 🗄️
+```
+cd server/
+npm start
+```
 
-## ✒️ Considerações Finais: 
+## Iniciar o aplicativo 📱
+```
+cd ../client
+npm run dev
+```
 
-* *Trabalho de Projeto Interdisciplinar do 3o.Semestre FATEC FRANCA*
-* Gostou nos convide para uma Breja 🍺;
+## Telas 📸
+O frontend foi desenvolvido utilizando o Next.js, um framework React que oferece recursos como roteamento, renderização do lado do servidor (SSR) e otimizações de performance. A interface é totalmente responsiva, adaptando-se a diferentes tamanhos de tela, incluindo dispositivos móveis.
+
+* **Tela de login**
+  * Desktop
+ ![image](https://github.com/FatecFranca/DSM-G06-PI3-2024-1/assets/111711287/24175202-a2de-44e2-9fb5-84e345389a03) 
+  * Mobile
+
+    ![image](https://github.com/FatecFranca/DSM-G06-PI3-2024-1/assets/111711287/13e96ace-a7b4-4c97-81fe-78bd02653b99)
+
+
+* **Tela de tickets**
+  * Desktop
+ ![image](https://github.com/FatecFranca/DSM-G06-PI3-2024-1/assets/111711287/d43d000a-e5d9-471d-b666-62e331bf62bf)
+  * Mobile
+  
+    ![image](https://github.com/FatecFranca/DSM-G06-PI3-2024-1/assets/111711287/fde72c05-65e6-43bb-a211-dc4d3391e867)
+
+
+* **Tela de abertura de ticket**
+  * Desktop
+ ![image](https://github.com/FatecFranca/DSM-G06-PI3-2024-1/assets/111711287/b7961278-9c7c-43c6-b285-04da96bc4cbf)
+  * Mobile
+
+    ![image](https://github.com/FatecFranca/DSM-G06-PI3-2024-1/assets/111711287/b704af02-28ba-44fe-b347-199299203d0c)
+
+
+* **Tela de edição de ticket**
+  * Desktop
+ ![image](https://github.com/FatecFranca/DSM-G06-PI3-2024-1/assets/111711287/e1c44a0b-feeb-4b91-a775-5c8c3ad1c90b)
+  * Mobile
+
+    ![image](https://github.com/FatecFranca/DSM-G06-PI3-2024-1/assets/111711287/7f81a7a2-0f55-4a76-a816-f16aa6e041b5)
+
+
+
+
+## Contribuições 🤝
+Contribuições são bem-vindas!
+
+## Licença 📄
+
+**Este projeto está licenciado sob a [Licença MIT].**
