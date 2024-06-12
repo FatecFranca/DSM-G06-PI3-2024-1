@@ -30,7 +30,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <body suppressHydrationWarning={true} className={poppins.className}>
           {children}
           <AddTicketModal isOpen={isOpen} onClose={handleClose} />
-          <EditTicketModal isOpen={isOpen} onClose={handleClose}/>
+          <EditTicketModal isOpen={isOpen} onClose={handleClose} ticketId=""/>
           <ToastContainer />
         </body>
     </html>

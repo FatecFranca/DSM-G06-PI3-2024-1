@@ -30,7 +30,7 @@ function Header() {
   }, []);
 
   return (
-    <div className="z-5 flex justify-between w-[95%] rounded-full h-16 fixed top-2 bg-[#0b4c71e3] px-2 drop-shadow-xl mb-2">
+    <div className="z-5 flex justify-between w-[95%] rounded-full h-16 fixed top-2 bg-[#002F3F] px-2 drop-shadow-xl mb-2">
       <div className="flex items-center gap-2 pl-4 py-2">
         <Image
           src="/img/robozinho.png"
