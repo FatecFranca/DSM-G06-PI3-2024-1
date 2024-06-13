@@ -1,7 +1,7 @@
 <H1 align ="center" > DSM-G06-PI3-2024-1 - Robotics Atendimentos 🤖  </h1>
 
 ## Descrição do Projeto 📝
-Este repositório contém o projeto desenvolvido pelo GRUPO 06 para o Projeto Interdisciplinar do 3º semestre do curso de Desenvolvimento de Software Multiplataforma (DSM) em 2024/1. O projeto "Robotics Atendimentos" visa solucionar o problema da auxência de registros de atendimentos de uma equipe de suporte técnico, permitindo a otimização dos processos e a melhoria da gestão.
+Este repositório contém o projeto desenvolvido pelo GRUPO 06 para o Projeto Interdisciplinar do 3º semestre do curso de Desenvolvimento de Software Multiplataforma (DSM) em 2024/1. O projeto "Robotics Atendimentos" visa solucionar o problema da ausência de registros de atendimentos de uma equipe de suporte técnico, permitindo a otimização dos processos e a melhoria da gestão.
 
 
 ## Equipe 👥
